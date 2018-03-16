@@ -1,6 +1,6 @@
 {
   "name": "@source4society/react-scepter-navigation-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A navigation menu component that gets its properties from the navigation manager higher order component",
   "main": "lib/index.js",
   "repository": "https://github.com/source4societyorg/react-scepter-navigation-menu.git",

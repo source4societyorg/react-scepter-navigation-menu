@@ -5,8 +5,8 @@ import { propTypes, defaultProps, mapStateToProps } from './props';
 
 export class NavigationMenu extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
-    const { isHidden, isAnimating, reducerKey, animationDuration } = this.props;
-    return <children isHidden={isHidden} isAnimating={isAnimating} reducerKey={reducerKey} animationDuration={animationDuration} />;
+    const { isHidden, isAnimating, reducerKey, animationDuration, children } = this.props;
+    return React.cloneElement(children, { isHidden, isAnimating, reducerKey, animationDuration });
   }
 }
 
