@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { valueOrDefault } from '@source4society/scepter-utility-lib';
 import { createStructuredSelector } from 'reselect';
-import { makeSelectIsHidden, makeSelectIsAnimating } from '@source4society/react-scepter-navigation-hoc';
+import { makeSelectIsHidden, makeSelectIsAnimating } from '@source4society/react-scepter-navigation-hoc/lib/selectors';
 export const propTypes = {
   isHidden: PropTypes.bool,
   isAnimating: PropTypes.bool,
